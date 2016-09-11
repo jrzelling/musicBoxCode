@@ -1,0 +1,549 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[     20915,        540]
+NotebookOptionsPosition[     20203,        510]
+NotebookOutlinePosition[     20561,        526]
+CellTagsIndexPosition[     20518,        523]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Sound", "[", 
+  RowBox[{"SoundNote", "[", "1", "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.630538910053651*^9, 3.630538912766404*^9}}],
+
+Cell[BoxData[
+ InterpretationBox[
+  GraphicsBox[{
+    {GrayLevel[0.9], RectangleBox[{0, 0}, {360, -164}]}, {InsetBox[
+      GraphicsBox[
+       {RGBColor[0.5, 0, 0.5], 
+        StyleBox[RectangleBox[{0., 0.4438917279327484}, {0.95, 0.45579648983751037`}],
+         Antialiasing->True]},
+       AspectRatio->NCache[
+         Rational[6, 35], 0.17142857142857143`],
+       Background->GrayLevel[1],
+       Frame->True,
+       FrameStyle->GrayLevel[0.75],
+       FrameTicks->False,
+       ImagePadding->None,
+       PlotRange->All,
+       PlotRangePadding->{Automatic, 0.05}], {180, -35}, 
+      ImageScaled[{0.5, 0.5}], {350, 60},
+      Background->GrayLevel[0.9]], InsetBox[
+      GraphicsBox[
+       {GrayLevel[0.6], RectangleBox[{0, 0}]},
+       AspectRatio->NCache[
+         Rational[6, 35], 0.17142857142857143`],
+       Background->GrayLevel[1],
+       Frame->True,
+       FrameStyle->GrayLevel[0.75],
+       FrameTicks->False,
+       ImagePadding->None], {180, -100}, ImageScaled[{0.5, 0.5}], {350, 60},
+      Background->GrayLevel[0.9]]}, InsetBox[
+     StyleBox[
+      TemplateBox[{
+       StyleBox[
+        "\" | \"", FontSize -> 14, FontColor -> GrayLevel[0.75], StripOnInput -> 
+         False],TemplateBox[{"1", "\" s\""}, "RowDefault"]},
+       "RowWithSeparator"], "DialogStyle",
+      StripOnInput->False], {355, -159}, Scaled[{1, 0}]], 
+    TagBox[
+     TooltipBox[
+      TagBox[{
+        {GrayLevel[0.9], RectangleBox[{5, -158}, {29, -135}]}, 
+        {GrayLevel[0.3], 
+         PolygonBox[
+          NCache[{{13, -153}, {13, -140}, {21, Rational[-293, 2]}, {
+            13, -153}}, {{13, -153}, {13, -140}, {21, -146.5}, {13, -153}}]]}, 
+        {GrayLevel[0.5], 
+         StyleBox[
+          LineBox[{{5, -158}, {5, -135}, {29, -135}, {29, -158}, {5, -158}}],
+          Antialiasing->False]}},
+       EventHandlerTag[{"MouseClicked" :> (Sound`EmitMIDI[
+            Sound`MIDISequence[{
+              Sound`MIDITrack[{
+                Sound`MIDIEvent[0, "SetTempo", "Tempo" -> 1000000], 
+                Sound`MIDIEvent[
+                0, "ProgramCommand", "Channel" -> 0, "Value" -> 0], 
+                Sound`MIDIEvent[
+                0, "NoteOn", "Note" -> 61, "Channel" -> 0, "Velocity" -> 127], 
+                Sound`MIDIEvent[
+                48, "NoteOff", "Note" -> 61, "Channel" -> 0, "Velocity" -> 
+                 0]}]}, "DivisionType" -> "PPQ", "Resolution" -> 48]]; 
+          Sound`EmitSampledSound[None, "Preemptive"]), PassEventsDown -> 
+         Automatic, PassEventsUp -> True}]],
+      DynamicBox[
+       ToBoxes[
+        FEPrivate`FrontEndResource["FEStrings", "playText"], StandardForm]]],
+     Annotation[#, 
+      Dynamic[
+       FEPrivate`FrontEndResource["FEStrings", "playText"]], "Tooltip"]& ], 
+    TagBox[
+     TooltipBox[
+      TagBox[{
+        {GrayLevel[0.9], RectangleBox[{34, -158}, {58, -135}]}, 
+        {GrayLevel[0.3], RectangleBox[{42, -150}, {50, -143}]}, 
+        {GrayLevel[0.5], 
+         StyleBox[
+          LineBox[{{34, -158}, {34, -135}, {58, -135}, {58, -158}, {
+           34, -158}}],
+          Antialiasing->False]}},
+       EventHandlerTag[{"MouseClicked" :> (Sound`EmitSampledSound[
+            SampledSoundList[{{0.}}, 8000], "Preemptive"]; Sound`StopMIDI[]), 
+         PassEventsDown -> Automatic, PassEventsUp -> True}]],
+      DynamicBox[
+       ToBoxes[
+        FEPrivate`FrontEndResource["FEStrings", "stopText"], StandardForm]]],
+     Annotation[#, 
+      Dynamic[
+       FEPrivate`FrontEndResource["FEStrings", "stopText"]], "Tooltip"]& ], 
+    {GrayLevel[0.75], 
+     StyleBox[LineBox[{{0, 0}, {360, 0}, {360, -164}, {0, -164}, {0, 0}}],
+      Antialiasing->False]}},
+   ContentSelectable->False,
+   ImageSize->250,
+   PlotRange->{{0, 360}, {-164, 0}},
+   PlotRangePadding->1],
+  Sound[
+   SoundNote[1]]]], "Output",
+ CellChangeTimes->{3.630538913170846*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Sound", "[", 
+  RowBox[{"SoundNote", "[", "3", "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.630538917317278*^9, 3.6305389195830173`*^9}}],
+
+Cell[BoxData[
+ InterpretationBox[
+  GraphicsBox[{
+    {GrayLevel[0.9], RectangleBox[{0, 0}, {360, -164}]}, {InsetBox[
+      GraphicsBox[
+       {RGBColor[0.5, 0, 0.5], 
+        StyleBox[RectangleBox[{0., 0.4677012517422721}, {0.95, 0.4796060136470343}],
+         Antialiasing->True]},
+       AspectRatio->NCache[
+         Rational[6, 35], 0.17142857142857143`],
+       Background->GrayLevel[1],
+       Frame->True,
+       FrameStyle->GrayLevel[0.75],
+       FrameTicks->False,
+       ImagePadding->None,
+       PlotRange->All,
+       PlotRangePadding->{Automatic, 0.05}], {180, -35}, 
+      ImageScaled[{0.5, 0.5}], {350, 60},
+      Background->GrayLevel[0.9]], InsetBox[
+      GraphicsBox[
+       {GrayLevel[0.6], RectangleBox[{0, 0}]},
+       AspectRatio->NCache[
+         Rational[6, 35], 0.17142857142857143`],
+       Background->GrayLevel[1],
+       Frame->True,
+       FrameStyle->GrayLevel[0.75],
+       FrameTicks->False,
+       ImagePadding->None], {180, -100}, ImageScaled[{0.5, 0.5}], {350, 60},
+      Background->GrayLevel[0.9]]}, InsetBox[
+     StyleBox[
+      TemplateBox[{
+       StyleBox[
+        "\" | \"", FontSize -> 14, FontColor -> GrayLevel[0.75], StripOnInput -> 
+         False],TemplateBox[{"1", "\" s\""}, "RowDefault"]},
+       "RowWithSeparator"], "DialogStyle",
+      StripOnInput->False], {355, -159}, Scaled[{1, 0}]], 
+    TagBox[
+     TooltipBox[
+      TagBox[{
+        {GrayLevel[0.9], RectangleBox[{5, -158}, {29, -135}]}, 
+        {GrayLevel[0.3], 
+         PolygonBox[
+          NCache[{{13, -153}, {13, -140}, {21, Rational[-293, 2]}, {
+            13, -153}}, {{13, -153}, {13, -140}, {21, -146.5}, {13, -153}}]]}, 
+        {GrayLevel[0.5], 
+         StyleBox[
+          LineBox[{{5, -158}, {5, -135}, {29, -135}, {29, -158}, {5, -158}}],
+          Antialiasing->False]}},
+       EventHandlerTag[{"MouseClicked" :> (Sound`EmitMIDI[
+            Sound`MIDISequence[{
+              Sound`MIDITrack[{
+                Sound`MIDIEvent[0, "SetTempo", "Tempo" -> 1000000], 
+                Sound`MIDIEvent[
+                0, "ProgramCommand", "Channel" -> 0, "Value" -> 0], 
+                Sound`MIDIEvent[
+                0, "NoteOn", "Note" -> 63, "Channel" -> 0, "Velocity" -> 127], 
+                Sound`MIDIEvent[
+                48, "NoteOff", "Note" -> 63, "Channel" -> 0, "Velocity" -> 
+                 0]}]}, "DivisionType" -> "PPQ", "Resolution" -> 48]]; 
+          Sound`EmitSampledSound[None, "Preemptive"]), PassEventsDown -> 
+         Automatic, PassEventsUp -> True}]],
+      DynamicBox[
+       ToBoxes[
+        FEPrivate`FrontEndResource["FEStrings", "playText"], StandardForm]]],
+     Annotation[#, 
+      Dynamic[
+       FEPrivate`FrontEndResource["FEStrings", "playText"]], "Tooltip"]& ], 
+    TagBox[
+     TooltipBox[
+      TagBox[{
+        {GrayLevel[0.9], RectangleBox[{34, -158}, {58, -135}]}, 
+        {GrayLevel[0.3], RectangleBox[{42, -150}, {50, -143}]}, 
+        {GrayLevel[0.5], 
+         StyleBox[
+          LineBox[{{34, -158}, {34, -135}, {58, -135}, {58, -158}, {
+           34, -158}}],
+          Antialiasing->False]}},
+       EventHandlerTag[{"MouseClicked" :> (Sound`EmitSampledSound[
+            SampledSoundList[{{0.}}, 8000], "Preemptive"]; Sound`StopMIDI[]), 
+         PassEventsDown -> Automatic, PassEventsUp -> True}]],
+      DynamicBox[
+       ToBoxes[
+        FEPrivate`FrontEndResource["FEStrings", "stopText"], StandardForm]]],
+     Annotation[#, 
+      Dynamic[
+       FEPrivate`FrontEndResource["FEStrings", "stopText"]], "Tooltip"]& ], 
+    {GrayLevel[0.75], 
+     StyleBox[LineBox[{{0, 0}, {360, 0}, {360, -164}, {0, -164}, {0, 0}}],
+      Antialiasing->False]}},
+   ContentSelectable->False,
+   ImageSize->250,
+   PlotRange->{{0, 360}, {-164, 0}},
+   PlotRangePadding->1],
+  Sound[
+   SoundNote[3]]]], "Output",
+ CellChangeTimes->{3.630538920368037*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"EventHandler", "[", 
+  RowBox[{
+   RowBox[{"InputField", "[", "]"}], ",", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<KeyDown\>\"", ",", "\"\<q\>\""}], "}"}], "\[RuleDelayed]", 
+    RowBox[{"Speak", "[", "\"\<Q\>\"", "]"}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<KeyDown\>\"", ",", "\"\<w\>\""}], "}"}], "\[RuleDelayed]", 
+    RowBox[{"Speak", "[", "\"\<W\>\"", "]"}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<KeyDown\>\"", ",", "\"\<e\>\""}], "}"}], "\[RuleDelayed]", 
+    RowBox[{"Speak", "[", "\"\<E\>\"", "]"}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<KeyDown\>\"", ",", "\"\<r\>\""}], "}"}], "\[RuleDelayed]", 
+    RowBox[{"Speak", "[", "\"\<R\>\"", "]"}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<KeyDown\>\"", ",", "\"\<t\>\""}], "}"}], "\[RuleDelayed]", 
+    RowBox[{"Speak", "[", "\"\<T\>\"", "]"}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<KeyDown\>\"", ",", "\"\<y\>\""}], "}"}], "\[RuleDelayed]", 
+    RowBox[{"Speak", "[", "\"\<Y\>\"", "]"}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<KeyDown\>\"", ",", "\"\<u\>\""}], "}"}], "\[RuleDelayed]", 
+    RowBox[{"Speak", "[", "\"\<U\>\"", "]"}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<KeyDown\>\"", ",", "\"\<i\>\""}], "}"}], "\[RuleDelayed]", 
+    RowBox[{"Speak", "[", "\"\<I\>\"", "]"}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<KeyDown\>\"", ",", "\"\<o\>\""}], "}"}], "\[RuleDelayed]", 
+    RowBox[{"Speak", "[", "\"\<O\>\"", "]"}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<KeyDown\>\"", ",", "\"\<p\>\""}], "}"}], "\[RuleDelayed]", 
+    RowBox[{"Speak", "[", "\"\<P\>\"", "]"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.630539021821907*^9, 3.630539028125139*^9}, 
+   3.630539239571641*^9, {3.630539345991325*^9, 3.630539361588358*^9}, 
+   3.630539466742444*^9, {3.630539539419511*^9, 3.630539616522861*^9}, {
+   3.630540089298952*^9, 3.630540173222898*^9}}],
+
+Cell[BoxData[
+ TagBox[
+  TagBox[
+   DynamicModuleBox[{Typeset`i$$ = Null}, 
+    InputFieldBox[Dynamic[Typeset`i$$]],
+    DynamicModuleValues:>{}],
+   InputField[
+    Setting[#]]& ],
+  EventHandlerTag[{{"KeyDown", "q"} :> Speak["Q"], {"KeyDown", "w"} :> 
+    Speak["W"], {"KeyDown", "e"} :> Speak["E"], {"KeyDown", "r"} :> 
+    Speak["R"], {"KeyDown", "t"} :> Speak["T"], {"KeyDown", "y"} :> 
+    Speak["Y"], {"KeyDown", "u"} :> Speak["U"], {"KeyDown", "i"} :> 
+    Speak["I"], {"KeyDown", "o"} :> Speak["O"], {"KeyDown", "p"} :> 
+    Speak["P"], PassEventsDown -> Automatic, PassEventsUp -> 
+    True}]]], "Output",
+ CellChangeTimes->{
+  3.63053924265856*^9, {3.630539348696632*^9, 3.630539362536387*^9}, 
+   3.6305394703826017`*^9, 3.630539547098501*^9, 3.630539618724883*^9, 
+   3.630540135715404*^9, 3.682585598684766*^9}]
+}, Open  ]],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"EmitSound", "[", 
+   RowBox[{"Sound", "[", 
+    RowBox[{"SoundNote", "[", "\"\<C\>\"", "]"}], "]"}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"EmitSound", "[", 
+  RowBox[{"Sound", "[", 
+   RowBox[{"SoundNote", "[", "\"\<E\>\"", "]"}], "]"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.630540032050012*^9, 3.630540073520055*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"EventHandler", "[", 
+  RowBox[{
+   RowBox[{"InputField", "[", "]"}], ",", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<KeyDown\>\"", ",", "\"\<q\>\""}], "}"}], "\[RuleDelayed]", 
+    RowBox[{"EmitSound", "[", 
+     RowBox[{"Sound", "[", 
+      RowBox[{"SoundNote", "[", 
+       RowBox[{"\"\<C5\>\"", ",", "1", ",", "\"\<Guitar\>\""}], "]"}], "]"}], 
+     "]"}]}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<KeyDown\>\"", ",", "\"\<w\>\""}], "}"}], "\[RuleDelayed]", 
+    RowBox[{"EmitSound", "[", 
+     RowBox[{"Sound", "[", 
+      RowBox[{"SoundNote", "[", 
+       RowBox[{"\"\<B\>\"", ",", "2", ",", "\"\<Guitar\>\""}], "]"}], "]"}], 
+     "]"}]}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<KeyDown\>\"", ",", "\"\<e\>\""}], "}"}], "\[RuleDelayed]", 
+    RowBox[{"EmitSound", "[", 
+     RowBox[{"Sound", "[", 
+      RowBox[{"SoundNote", "[", 
+       RowBox[{"\"\<A\>\"", ",", "2", ",", "\"\<Guitar\>\""}], "]"}], "]"}], 
+     "]"}]}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<KeyDown\>\"", ",", "\"\<r\>\""}], "}"}], "\[RuleDelayed]", 
+    RowBox[{"EmitSound", "[", 
+     RowBox[{"Sound", "[", 
+      RowBox[{"SoundNote", "[", 
+       RowBox[{"\"\<G\>\"", ",", "2", ",", "\"\<Guitar\>\""}], "]"}], "]"}], 
+     "]"}]}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<KeyDown\>\"", ",", "\"\<t\>\""}], "}"}], "\[RuleDelayed]", 
+    RowBox[{"EmitSound", "[", 
+     RowBox[{"Sound", "[", 
+      RowBox[{"SoundNote", "[", 
+       RowBox[{"\"\<F\>\"", ",", "2", ",", "\"\<Guitar\>\""}], "]"}], "]"}], 
+     "]"}]}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<KeyDown\>\"", ",", "\"\<y\>\""}], "}"}], "\[RuleDelayed]", 
+    RowBox[{"EmitSound", "[", 
+     RowBox[{"Sound", "[", 
+      RowBox[{"SoundNote", "[", 
+       RowBox[{"\"\<E\>\"", ",", "2", ",", "\"\<Guitar\>\""}], "]"}], "]"}], 
+     "]"}]}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<KeyDown\>\"", ",", "\"\<u\>\""}], "}"}], "\[RuleDelayed]", 
+    RowBox[{"EmitSound", "[", 
+     RowBox[{"Sound", "[", 
+      RowBox[{"SoundNote", "[", 
+       RowBox[{"\"\<D\>\"", ",", "2", ",", "\"\<Guitar\>\""}], "]"}], "]"}], 
+     "]"}]}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<KeyDown\>\"", ",", "\"\<i\>\""}], "}"}], "\[RuleDelayed]", 
+    RowBox[{"EmitSound", "[", 
+     RowBox[{"Sound", "[", 
+      RowBox[{"SoundNote", "[", 
+       RowBox[{"\"\<C\>\"", ",", "2", ",", "\"\<Guitar\>\""}], "]"}], "]"}], 
+     "]"}]}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<KeyDown\>\"", ",", "\"\<o\>\""}], "}"}], "\[RuleDelayed]", 
+    RowBox[{"EmitSound", "[", 
+     RowBox[{"Sound", "[", 
+      RowBox[{"SoundNote", "[", 
+       RowBox[{"\"\<B3\>\"", ",", "2", ",", "\"\<Guitar\>\""}], "]"}], "]"}], 
+     "]"}]}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<KeyDown\>\"", ",", "\"\<p\>\""}], "}"}], "\[RuleDelayed]", 
+    RowBox[{"EmitSound", "[", 
+     RowBox[{"Sound", "[", 
+      RowBox[{"SoundNote", "[", 
+       RowBox[{"\"\<A3\>\"", ",", "2", ",", "\"\<Guitar\>\""}], "]"}], "]"}], 
+     "]"}]}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<KeyDown\>\"", ",", "\"\<a\>\""}], "}"}], "\[RuleDelayed]", 
+    RowBox[{"EmitSound", "[", 
+     RowBox[{"Sound", "[", 
+      RowBox[{"SoundNote", "[", 
+       RowBox[{"\"\<G3\>\"", ",", "2", ",", "\"\<Guitar\>\""}], "]"}], "]"}], 
+     "]"}]}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<KeyDown\>\"", ",", "\"\<s\>\""}], "}"}], "\[RuleDelayed]", 
+    RowBox[{"EmitSound", "[", 
+     RowBox[{"Sound", "[", 
+      RowBox[{"SoundNote", "[", 
+       RowBox[{"\"\<F3\>\"", ",", "2", ",", "\"\<Guitar\>\""}], "]"}], "]"}], 
+     "]"}]}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<KeyDown\>\"", ",", "\"\<d\>\""}], "}"}], "\[RuleDelayed]", 
+    RowBox[{"EmitSound", "[", 
+     RowBox[{"Sound", "[", 
+      RowBox[{"SoundNote", "[", 
+       RowBox[{"\"\<E3\>\"", ",", "2", ",", "\"\<Guitar\>\""}], "]"}], "]"}], 
+     "]"}]}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<KeyDown\>\"", ",", "\"\<f\>\""}], "}"}], "\[RuleDelayed]", 
+    RowBox[{"EmitSound", "[", 
+     RowBox[{"Sound", "[", 
+      RowBox[{"SoundNote", "[", 
+       RowBox[{"\"\<D3\>\"", ",", "2", ",", "\"\<Guitar\>\""}], "]"}], "]"}], 
+     "]"}]}], ",", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<KeyDown\>\"", ",", "\"\<g\>\""}], "}"}], "\[RuleDelayed]", 
+    RowBox[{"EmitSound", "[", 
+     RowBox[{"Sound", "[", 
+      RowBox[{"SoundNote", "[", 
+       RowBox[{"\"\<C3\>\"", ",", "2", ",", "\"\<Guitar\>\""}], "]"}], "]"}], 
+     "]"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.630540324102042*^9, 3.6305404617476788`*^9}, {
+   3.6305405387306957`*^9, 3.6305405622751417`*^9}, {3.6305406162719917`*^9, 
+   3.630540657262513*^9}, {3.630541210664955*^9, 3.63054121642761*^9}, {
+   3.630541250443012*^9, 3.630541279424726*^9}, {3.6305413746753473`*^9, 
+   3.630541377697212*^9}, 3.630541486148635*^9, {3.630541585447653*^9, 
+   3.630541587324046*^9}, {3.630541622172141*^9, 3.630541627517325*^9}, {
+   3.630541776286387*^9, 3.630541778860922*^9}, {3.630541902077038*^9, 
+   3.630541940676115*^9}, {3.630541993802376*^9, 3.630542001115568*^9}, {
+   3.6305427271063137`*^9, 3.630542729823485*^9}, {3.6305429203373623`*^9, 
+   3.630542923368602*^9}, 3.630543089643868*^9, 3.630543134205502*^9, 
+   3.6305431921632023`*^9, {3.630543801303611*^9, 3.630543804280829*^9}, {
+   3.630543841464345*^9, 3.630543844648324*^9}, {3.6305440116362247`*^9, 
+   3.630544014597122*^9}, {3.630544115264628*^9, 3.630544118026904*^9}, {
+   3.630544295657099*^9, 3.630544297669897*^9}, {3.630544349883377*^9, 
+   3.630544353160178*^9}, {3.630544801886929*^9, 3.630544804792369*^9}, 
+   3.630544856807028*^9, 3.630545686294093*^9, 3.630545735082191*^9, {
+   3.630546015446837*^9, 3.630546031128531*^9}, 3.6305460834387827`*^9, 
+   3.630546130363887*^9, {3.677380446660799*^9, 3.677380473194701*^9}, 
+   3.682585634445086*^9}],
+
+Cell[BoxData[
+ TagBox[
+  TagBox[
+   DynamicModuleBox[{Typeset`i$$ = Null}, 
+    InputFieldBox[Dynamic[Typeset`i$$]],
+    DynamicModuleValues:>{}],
+   InputField[
+    Setting[#]]& ],
+  EventHandlerTag[{{"KeyDown", "q"} :> EmitSound[
+      Sound[
+       SoundNote["C5", 1, "Guitar"]]], {"KeyDown", "w"} :> EmitSound[
+      Sound[
+       SoundNote["B", 2, "Guitar"]]], {"KeyDown", "e"} :> EmitSound[
+      Sound[
+       SoundNote["A", 2, "Guitar"]]], {"KeyDown", "r"} :> EmitSound[
+      Sound[
+       SoundNote["G", 2, "Guitar"]]], {"KeyDown", "t"} :> EmitSound[
+      Sound[
+       SoundNote["F", 2, "Guitar"]]], {"KeyDown", "y"} :> EmitSound[
+      Sound[
+       SoundNote["E", 2, "Guitar"]]], {"KeyDown", "u"} :> EmitSound[
+      Sound[
+       SoundNote["D", 2, "Guitar"]]], {"KeyDown", "i"} :> EmitSound[
+      Sound[
+       SoundNote["C", 2, "Guitar"]]], {"KeyDown", "o"} :> EmitSound[
+      Sound[
+       SoundNote["B3", 2, "Guitar"]]], {"KeyDown", "p"} :> EmitSound[
+      Sound[
+       SoundNote["A3", 2, "Guitar"]]], {"KeyDown", "a"} :> EmitSound[
+      Sound[
+       SoundNote["G3", 2, "Guitar"]]], {"KeyDown", "s"} :> EmitSound[
+      Sound[
+       SoundNote["F3", 2, "Guitar"]]], {"KeyDown", "d"} :> EmitSound[
+      Sound[
+       SoundNote["E3", 2, "Guitar"]]], {"KeyDown", "f"} :> EmitSound[
+      Sound[
+       SoundNote["D3", 2, "Guitar"]]], {"KeyDown", "g"} :> EmitSound[
+      Sound[
+       SoundNote["C3", 2, "Guitar"]]], PassEventsDown -> Automatic, 
+    PassEventsUp -> True}]]], "Output",
+ CellChangeTimes->{
+  3.6305416285367327`*^9, 3.6305417798235703`*^9, 3.63054273075281*^9, 
+   3.630542925335918*^9, 3.630543091661693*^9, 3.630543135648313*^9, 
+   3.630543193321801*^9, 3.6305438050108337`*^9, 3.630543845409842*^9, 
+   3.630544015279229*^9, 3.630544118930193*^9, 3.6305442094411917`*^9, 
+   3.63054429840042*^9, 3.6305443539948397`*^9, 3.6305448053108883`*^9, 
+   3.630544857796865*^9, 3.6305457361725283`*^9, 3.630546032020094*^9, 
+   3.630546084726797*^9, 3.6305461313312073`*^9, 3.677380244988633*^9, 
+   3.677380467026101*^9, {3.6825856223232403`*^9, 3.6825856383036833`*^9}}]
+}, Open  ]]
+},
+WindowSize->{869, 1006},
+WindowMargins->{{Automatic, 110}, {Automatic, 0}},
+FrontEndVersion->"9.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 20, \
+2012)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 160, 3, 28, "Input"],
+Cell[742, 27, 3842, 95, 130, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4621, 127, 162, 3, 28, "Input"],
+Cell[4786, 132, 3840, 95, 130, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8663, 232, 2221, 47, 199, "Input"],
+Cell[10887, 281, 825, 18, 39, "Output"]
+}, Open  ]],
+Cell[11727, 302, 370, 9, 46, "Input"],
+Cell[CellGroupData[{
+Cell[12122, 315, 5955, 142, 284, "Input"],
+Cell[18080, 459, 2107, 48, 73, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
